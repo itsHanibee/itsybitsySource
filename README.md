@@ -1,4 +1,4 @@
-![Header Image](https://raw.githubusercontent.com/itsHanibee/itsybitsySource/master/itsybitsyBanner.jpg)
+![Header Image](https://raw.githubusercontent.com/itsHanibee/itsybitsySource/master/media/itsybitsyBanner.jpg)
 
 Introducing itsy bitsy Tweaks!, a magisk module made to optimize battery life of your Android device without compromising UI stability and smoothness. 
 
