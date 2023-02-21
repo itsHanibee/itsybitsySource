@@ -23,10 +23,12 @@ This is to encourage normal, regular users to go in and enable or disable compon
 
 ### Compatibility
 - Minimum SDK = 29
+- Most Android Custom Roms/Stock FWs and Devices. If your kernel and/or trees have any drastic changes, this will not work.
 
 ### Prerequisites
 - Device rooted by [Magisk Stable](https://github.com/topjohnwu/Magisk/releases/latest) / Any of its forks
 - ⚠️ Removing any previously installed modules that may conflict.
+- Install [Magisk Bootloop Saver](https://forum.xda-developers.com/attachments/magisk_bootloop_protector-v1-8-1-10015-zip.5817937/) by [HuskyDG](https://github.com/HuskyDG)
 
 ### Installation
 - Download the module zip.
@@ -41,6 +43,8 @@ This is to encourage normal, regular users to go in and enable or disable compon
 
 ### Author's Note
 I want to express my genuine and honest thanks to all the open source projects and modules that contributed to itsy bitsy. Your input was crucial in helping me learn scripting and making this module possible.
+
+And also please don't use this if you really don't need it, there's alot of devices with competent devs who make amazing builds for you, don't trash all over their hard work by using "optimizer" modules. Not this. Not anything else.
 
 ### Credits
 - First and foremost my testers, you guys are incredible!
