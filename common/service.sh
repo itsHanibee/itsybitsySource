@@ -69,23 +69,6 @@ echo "N" > /sys/module/sync/parameters/fsync_enabled
 # Subsystem
 echo "1" > /sys/module/subsystem_restart/parameters/disable_restart_work
 
-# Kernel Panic (*pat pat* woa chill there pro dev, drink something before blood pressure spikes. will eventually write a toggle for this but seeing as how MOST kernel devs are competent to get their kernels stable ill leave this on as default for now)
-for kernel in /proc/sys/kernel; do
-    write $kernel/panic 0
-    write $kernel/panic_on_oops 0
-    write $kernel/panic_on_warn 0
-    write $kernel/panic_on_rcu_stall 0
-    write $kernel/softlockup_panic 0
-    write $kernel/nmi_watchdog 0
-done
-
-for kernel in /sys/module/kernel; do
-    write $kernel/parameters/panic 0
-    write $kernel/parameters/panic_on_warn 0
-    write $kernel/parameters/pause_on_oops 0
-    write $kernel/panic_on_rcu_stall 0
-done
-
 # Disable CRC
 for parameters in /sys/module/mmc_core/parameters; do
     write $parameters/use_spi_crc 0

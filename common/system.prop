@@ -84,9 +84,6 @@ sys.keep_app_24=com.supercell.clashofclans
 # Disabled to turn off MDP composer logging & reduce it's overhead for better performance
 debug.mdpcomp.logs=0
 
-# Disable vendor ram dumps
-persist.sys.ssr.enable_ramdumps=1
-
 # Disable DPM debugging
 persist.vendor.dpm.loglevel=0
 persist.vendor.dpmhalservice.loglevel=0
@@ -163,10 +160,6 @@ media.stagefright.enable-http=true
 media.stagefright.enable-rtsp=true
 media.stagefright.enable-record=false
 
-#Improve audio quality
-persist.audio.fluence.mode=endfire
-persist.audio.vr.enable=true
-
 # Optimize Network
 net.ipv4.tcp_sack=1
 net.ipv4.tcp_fack=1
@@ -177,9 +170,6 @@ net.ipv4.conf.default.accept_redirects=0
 net.ipv4.conf.all.rp_filter=1
 persist.cust.tel.eons=1
 persist.cust.tel.adapt=1
-
-# Image Quality
-ro.media.enc.jpeg.quality=100
 
 # ZygPreforking // results in slightly higher cache usage and active drain but worth it if you multitask alot. // Highly recommend turning this on if you don't care about the battery drain and if your cache partition is F2FS 
 #persist.device_config.runtime_native.usap_pool_enabled=true
