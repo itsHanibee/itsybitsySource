@@ -3,11 +3,17 @@
 Introducing itsy bitsy Tweaks!, a magisk module made to optimize battery life of your Android device without compromising UI stability and smoothness. 
 
 While we recognize that there are performance-focused modules available;
-## itsy bitsy is specifically geared towards maximizing your battery endurance from a full charge to nil.
+itsy bitsy is specifically geared towards maximizing your battery endurance from a full charge to 0.
+
 
 > Note: itsy bitsy is not intended for gamers or those seeking a sustained performance increase. In fact, in some cases, this module may even result in a very slight performance decrease on prolonged load for gaming and other demanding tasks.
 
-Made for the average normal Android user going through their day-to-day life, itsy bitsy provides focus on battery life, without compromising on the user experience. We are committed to keeping our work open source, and making every change available for review. Enabling transparency and opportunities for others to and improve upon the code. We invite you to explore itsy bitsy and make pull requests for changes you see fit, keeping in mind to maintain the performance and stability you need for everyday use.
+> The only reason we claim better UI performance is because it was a side-effect to disabling alot of logs and other unnecessary (for the end user) system components in pursuit for battery life.
+
+
+### Made for the average normal Android user going through their day-to-day life, itsy bitsy provides focus on battery life, without compromising on the user experience. 
+
+We are committed to keeping our work open source, and making every change available for review. Enabling transparency and opportunities for others to and improve upon the code. We invite you to explore itsy bitsy and make pull requests for changes you see fit, keeping in mind to maintain the performance and stability you need for everyday use.
 
 #### It is worth mentioning that the scripting and comments in the "code" for itsy bitsy have been intentionally made very verbose.
 
@@ -19,6 +25,8 @@ This is to encourage normal, regular users to go in and enable or disable compon
 - Does various small tweaks to networking and other system attributes.
 - One of very few "tweaking" modules focused towards maximizing battery endurance instead of performance.
 - User-friendly and easy to navigate.
+- Helps with Tik-Tok addiction by just removing it on every reboot. 
+_(Want to disable this? Figure it out yourself.)_
 - Simple to install. Just flash & forget.
 
 ### Compatibility
