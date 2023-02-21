@@ -1,11 +1,11 @@
-# itsy bitsy Magisk Module
+![Header Image](https://raw.githubusercontent.com/itsHanibee/itsybitsySource/master/itsybitsyBanner.jpg)
 
-Introducing itsy bitsy, a magisk module made to optimize battery life of your Android device without compromising UI stability and smoothness. 
+Introducing itsy bitsy Tweaks!, a magisk module made to optimize battery life of your Android device without compromising UI stability and smoothness. 
 
 While we recognize that there are performance-focused modules available;
 ## itsy bitsy is specifically geared towards maximizing your battery endurance from a full charge to nil.
 
-> Note: itsy bitsy is not intended for gamers or those seeking a sustained performance increase. In fact, in some cases, this module can result in a very slight performance decrease on prolonged load for gaming and other demanding tasks.
+> Note: itsy bitsy is not intended for gamers or those seeking a sustained performance increase. In fact, in some cases, this module may even result in a very slight performance decrease on prolonged load for gaming and other demanding tasks.
 
 Made for the average normal Android user going through their day-to-day life, itsy bitsy provides focus on battery life, without compromising on the user experience. We are committed to keeping our work open source, and making every change available for review. Enabling transparency and opportunities for others to and improve upon the code. We invite you to explore itsy bitsy and make pull requests for changes you see fit, keeping in mind to maintain the performance and stability you need for everyday use.
 
