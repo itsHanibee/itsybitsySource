@@ -87,12 +87,10 @@ for virtual_memory in /proc/sys/vm; do
     write $virtual_memory/page-cluster 0
     write $virtual_memory/dirty_expire_centisecs 2000
     write $virtual_memory/dirty_writeback_centisecs 3000
+    write $virtual_memory/block_dump 0
+    write $virtual_memory/overcommit_ratio 50
+    write $virtual_memory/extra_free_kbytes 24300
 done
-
-echo "0" > /proc/sys/vm/block_dump
-echo "1103" > /proc/sys/vm/stat_interval
-echo "50" > /proc/sys/vm/overcommit_ratio
-echo "24300" > /proc/sys/vm/extra_free_kbytes
 
 #echo "64" > /proc/sys/kernel/random/read_wakeup_threshold
 #echo "128" > /proc/sys/kernel/random/write_wakeup_threshold
