@@ -1,0 +1,185 @@
+# Rendering
+debug.sf.enable_hwc_vds=0
+debug.sf.hw=0
+debug.egl.hw=0
+#sys.use_fifo_ui=1 // causes issues with screencasting but enabling might result in minor ui smoothness
+touch.pressure.scale=0.001
+ro.vendor.perf.scroll_opt=true
+persist.sys.scrollingcache=3
+touch.size.calibration=diameter
+touch.size.scale=1 
+touch.coverage.calibration=box 
+touch.gestureMode=spots
+persist.sys.use_dithering=1
+persist.sys.use.dithering=1
+
+# Hardset HWUI Cache values (from RiProG, guy makes great open source work definitely worth a try! https://t.me/RiOpSo)
+ro.hwui.texture_cache_size=72
+ro.hwui.layer_cache_size=48
+ro.hwui.r_buffer_cache_size=8
+ro.hwui.path_cache_size=32
+ro.hwui.gradient_cache_size=1
+ro.hwui.drop_shadow_cache_size=6
+ro.hwui.texture_cache_flushrate=0.4
+ro.hwui.text_small_cache_width=1024
+ro.hwui.text_small_cache_height=1024
+ro.hwui.text_large_cache_width=2048
+ro.hwui.text_large_cache_height=2048
+
+# RAM
+persist.service.pcsync.enable=0
+persist.service.lgospd.enable=0
+
+# Just In Time // thanks again RiProG
+#dalvik.vm.execution-mode=int:jit
+
+# lmkd stuff 
+ro.lmk.debug=false
+persist.sys.lmk.reportkills=false
+sys.lmk.reportkills=false
+persist.sys.offlinelog.kernel=false
+persist.sys.offlinelog.logcat=false
+persist.sys.offlinelog.logcatkernel=false
+ro.logdumpd.enabled=0
+ro.lmk.log_stats=false
+
+# Art (thanks random dts)
+dalvik.vm.minidebuginfo=false
+dalvik.vm.dex2oat-minidebuginfo=false
+dalvik.vm.checkjni=false
+
+# all the battery stuff i could find that helped
+persist.radio.add_power_save=1
+ro.ril.power.collapse=1
+ro.ril.sensor.sleep.control=1
+pm.sleep_mode=1
+ro.ril.disable.power.collapse=0
+
+# memory lock // this list is gonna get so big overtime i can already tell
+sys.keep_app_1=com.mojang.minecraftpe
+sys.keep_app_2=com.activision.callofduty.shooter
+sys.keep_app_3=com.riotgames.league.wildrift
+sys.keep_app_4=com.mobile.legends
+sys.keep_app_5=com.kitkagames.fallbuddies
+sys.keep_app_6=com.miHoYo.GenshinImpact
+sys.keep_app_7=com.carxtech.sr
+sys.keep_app_8=com.supercell.brawlstars
+sys.keep_app_9=com.ea.gp.apexlegendsmobilefps
+sys.keep_app_10=com.chucklefish.stardewvalley
+sys.keep_app_11=com.retroarch
+sys.keep_app_12=com.playdigious.deadcells.mobile
+sys.keep_app_13=com.garena.game.codm
+sys.keep_app_14=com.tencent.tmgp.kr.codm
+sys.keep_app_15=com.activision.callofduty.warzone
+sys.keep_app_16=com.vng.pubgmobile
+sys.keep_app_17=com.tencent.ig
+sys.keep_app_18=com.pubg.newstate
+sys.keep_app_19=com.pubg.krmobile
+sys.keep_app_20=com.pubg.imobile
+sys.keep_app_21=com.AlfaBravo.CombatMaster
+sys.keep_app_22=com.axlebolt.standoff2
+sys.keep_app_23=com.google.android.apps.cloudconsole
+sys.keep_app_24=com.supercell.clashofclans
+
+# Disabled to turn off MDP composer logging & reduce it's overhead for better performance
+debug.mdpcomp.logs=0
+
+# Disable vendor ram dumps
+persist.sys.ssr.enable_ramdumps=1
+
+# Disable DPM debugging
+persist.vendor.dpm.loglevel=0
+persist.vendor.dpmhalservice.loglevel=0
+
+# Increase GPU buffer count, does make rendering faster
+debug.egl.buffcount=4
+
+# Thanks onFire group for the help (XtremeSensivity🔥 v4) #
+
+# miscellaneous props
+debug.als.logs=0
+debug.svi.logs=0
+log.tag.stats_log=0
+persist.debug.trace=0
+persist.sys.loglevel=0
+ro.kernel.android.checkjni=0
+persist.vendor.sys.modem.logging.enable=false
+persist.anr.dumpthr=0
+libc.debug.malloc=0
+debug.egl.profiler=0
+debug.enable.wl_log=0
+debug.hwc.otf=0
+debug.hwc_dump_en=0
+debug.sf.dump=0
+debug.sf.ddms=0
+persist.radio.oem_socket=false
+persist.ims.disabled=1
+persist.ims.disableQXDMLogs=1
+persist.ims.disableIMSLogs=1
+vendor.fm.a2dp.conc.disabled=true
+persist.vendor.radio.snapshot_enabled=0
+persist.vendor.radio.snapshot_timer=0
+persist.mm.enable.prefetch=false
+persist.vendor.ims.dropset_feature=1
+persist.radio.NO_STAPA=1
+debugtool.anrhistory=0
+persist.sample.eyetracking.log=0
+
+# Disable vidc debugging
+vendor.vidc.debug.level=0
+vidc.debug.level=0
+
+# Disable camera debugging
+persist.camera.mct.debug=0
+persist.camera.iface.logs=0
+persist.camera.imglib.logs=0
+persist.camera.isp.debug=0
+persist.camera.sensor.debug=0
+persist.camera.debug.logfile=0
+
+#### MIUI Section ####
+# Mi Kernel Debug Collection Service
+sys.miui.ndcd=off
+
+# Speed Install
+ro.miui.pm.install.speedinstall=/data/apk-tmp
+#### End ####
+
+# FusePassthrough // A12 only // 5.4 and 5.10 only but just in case backport happens
+persist.sys.fuse.passthrough.enable=true
+
+# Hyper/Multithreading // generally almost always enabled you can remove the # next to the prop in case you need to enable it
+# Android Lollipop - // not sure why I'm including this here but can't hurt to cover my bases i guess
+#persist.sys.dalvik.hyperthreading=true
+# Android Marshmallow +
+#persist.sys.dalvik.multithread=true
+
+# FastStreaming
+video.accelerate.hw=1
+media.stagefright.enable-player=true
+media.stagefright.enable-meta=true
+media.stagefright.enable-scan=true
+media.stagefright.enable-http=true
+media.stagefright.enable-rtsp=true
+media.stagefright.enable-record=false
+
+#Improve audio quality
+persist.audio.fluence.mode=endfire
+persist.audio.vr.enable=true
+
+# Optimize Network
+net.ipv4.tcp_sack=1
+net.ipv4.tcp_fack=1
+net.ipv4.tcp_no_metrics_save=1
+net.ipv4.icmp_echo_ignore_all=1
+net.ipv4.tcp_moderate_rcvbuf=1
+net.ipv4.conf.default.accept_redirects=0
+net.ipv4.conf.all.rp_filter=1
+persist.cust.tel.eons=1
+persist.cust.tel.adapt=1
+
+# Image Quality
+ro.media.enc.jpeg.quality=100
+
+# ZygPreforking // results in slightly higher cache usage and active drain but worth it if you multitask alot. // Highly recommend turning this on if you don't care about the battery drain and if your cache partition is F2FS 
+#persist.device_config.runtime_native.usap_pool_enabled=true
