@@ -2,5 +2,5 @@
     "version": "Release 1.2",
     "versionCode": 102,
     "zipUrl": "https://github.com/itsHanibee/itsybitsySource/releases/download/1.2/itsybitsyTweaks_1.2.zip",
-    "changelog": "https://github.com/itsHanibee/itsybitsySource/releases/tag/1.2"
+    "changelog": "https://raw.githubusercontent.com/itsHanibee/itsybitsySource/master/changelog.md"
 }
