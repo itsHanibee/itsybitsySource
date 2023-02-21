@@ -63,9 +63,6 @@ echo "N" > /sys/module/sit/parameters/log_ecn_error
 echo "0" > /sys/module/smp2p/parameters/debug_mask
 echo "0" > /sys/module/usb_bam/parameters/enable_event_log
 
-# FSync OFF
-echo "N" > /sys/module/sync/parameters/fsync_enabled
-
 # Subsystem
 echo "1" > /sys/module/subsystem_restart/parameters/disable_restart_work
 
