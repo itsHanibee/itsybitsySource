@@ -6,9 +6,9 @@ While we recognize that there are performance-focused modules available;
 itsy bitsy is specifically geared towards maximizing your battery endurance from a full charge to 0.
 
 
-> Note: itsy bitsy is not intended for gamers or those seeking a sustained performance increase. In fact, in some cases, this module may even result in a very slight performance decrease on prolonged load for gaming and other demanding tasks.
+> Note: itsy bitsy is not intended for gamers or those seeking a sustained performance increase. In fact, in some cases, this module may even result in a performance decrease on prolonged load for gaming and other demanding tasks.
 
-> The only reason we claim better UI performance is because it was a side-effect to disabling alot of logs and other unnecessary (for the end user) system components in pursuit for battery life.
+> The reason we claim better UI performance is because it was a side-effect to disabling alot of logs and other unnecessary (for the end user) system components in pursuit for battery life.
 
 
 ### Made for the average normal Android user going through their day-to-day life, itsy bitsy provides focus on battery life, without compromising on the user experience. 
