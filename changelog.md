@@ -2,8 +2,6 @@
 
 ### 1.4
 
-- Disabling intensive UI Effects, this will effect gaming performance but this module isn't focused towards gamers anyway so feel free to update!
-
 - Completely focusing on AOSP from now on and the changed the props to reflect that.
 		 
 - Removing more redundant/vestigial props.

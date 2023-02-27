@@ -13,8 +13,8 @@ touch.gestureMode=spots
 persist.sys.use_dithering=1
 persist.sys.use.dithering=1
 
-# This flag turns off GPU/CPU intensive UI effects but it effects gaming performance ALOT. // THIS ISN'T A GAMING FOCUSED MODULE so don't cry when you get 10 fps in games after this.
-ro.config.avoid_gfx_accel=true
+# This flag turns off GPU/CPU intensive UI effects but it effects gaming performance ALOT. // THIS ISN'T A GAMING FOCUSED MODULE so don't cry when you get 10 fps in games after enabling this
+#ro.config.avoid_gfx_accel=true
 
 # Hardset HWUI Cache values (from RiProG, guy makes great open source work definitely worth a try! https://t.me/RiOpSo)
 ro.hwui.texture_cache_size=72
