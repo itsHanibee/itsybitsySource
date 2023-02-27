@@ -2,6 +2,8 @@
 
 ### 1.4
 
+- Added a new togglable option to disable intensive UI effects in props.
+
 - Completely focusing on AOSP from now on and the changed the props to reflect that.
 		 
 - Removing more redundant/vestigial props.
